@@ -44,6 +44,7 @@
 
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="manifest" href="/site.webmanifest">
+<link rel="icon" href="favicono/favicon.ico" type="image/x-icon">
 
 
 
@@ -121,7 +122,7 @@ Heladería Pisculichi comenzó en 1985, cuando Don Ernesto, un maestro heladero 
     
     <div class="row align-items-center mb-5">
       <div class="col-md-6 text-center">
-        <img src="img/helado1.png" alt="helado" style="width: 65%;">
+        <img src="img/helado1.png" class="imagen1" alt="helado" style="width: 65%;">
       </div>
       <div class="col-md-6 productos-texto">
         <h2 class="mb-3">Nuestros Helados</h2>
@@ -134,7 +135,7 @@ Heladería Pisculichi comenzó en 1985, cuando Don Ernesto, un maestro heladero 
   
     <div class="row align-items-center mb-5">
       <div class="col-md-6 text-center">
-        <img src="img/TortaHelada_1.png" alt="torta helada" style="width: 65%;">
+        <img src="img/TortaHelada_1.png" class="imagen2" alt="torta helada" style="width: 65%;">
       </div>
       <div class="col-md-6 productos-texto">
         <h2 class="mb-3">Nuestras Tortas Heladas</h2>
@@ -147,7 +148,7 @@ Heladería Pisculichi comenzó en 1985, cuando Don Ernesto, un maestro heladero 
     
     <div class="row align-items-center mb-5">
       <div class="col-md-6 text-center">
-        <img src="img/AlfajorHelado.png" alt="alfajor helado" style="width: 65%;">
+        <img src="img/AlfajorHelado.png" class="imagen3" alt="alfajor helado" style="width: 65%;">
       </div>
       <div class="col-md-6 productos-texto">
         <h2 class="mb-3">Nuestros Alfajores Helados</h2>
@@ -160,7 +161,7 @@ Heladería Pisculichi comenzó en 1985, cuando Don Ernesto, un maestro heladero 
     
     <div class="row align-items-center mb-5">
       <div class="col-md-6 text-center">
-        <img src="img/Cucuruchos.png" alt="cucuruchos" style="width: 65%;">
+        <img src="img/Cucuruchos.png" class="imagen4" alt="cucuruchos" style="width: 65%;">
       </div>
       <div class="col-md-6 productos-texto">
         <h2 class="mb-3">Nuestros Cucuruchos</h2>
@@ -205,8 +206,45 @@ ScrollReveal().reveal('.productos-texto', {
     easing: 'ease-out',
     interval: 200
   });
-
-
+  
+  
+  ScrollReveal().reveal('.imagen1', {
+    origin: 'center',
+    distance: '20px',
+    duration: 1000,
+    easing: 'ease-in',
+    interval: 250
+  });
+  ScrollReveal().reveal('.imagen2', {
+    origin: 'center',
+    distance: '20px',
+    duration: 1000,
+    easing: 'ease-in',
+    interval: 250
+  });
+  ScrollReveal().reveal('.imagen3', {
+    origin: 'center',
+    distance: '20px',
+    duration: 1000,
+    easing: 'ease-in',
+    interval: 250
+  });
+  ScrollReveal().reveal('.imagen4', {
+    origin: 'center',
+    distance: '20px',
+    duration: 1000,
+    easing: 'ease-in',
+    interval: 250
+  });
+ScrollReveal().reveal('.logo-img', {
+  distance: '0px',         
+  opacity: 0,             
+  scale: 0.8,              
+  duration: 1500,
+  easing: 'ease-out',
+  interval: 250
+});
+  
 
 
 //Smooth Scrolling

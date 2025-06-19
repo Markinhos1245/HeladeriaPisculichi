@@ -93,6 +93,17 @@ box-shadow: 0 4px 15px rgba(241, 218, 54, 0.2);
   border-radius: 12px;
 }
 
+#sucursales h1 { 
+
+   border-bottom: 5px solid #f31912;
+  padding-bottom: 5px;
+  margin-top: 0;
+  color: #1b1100;
+
+
+
+}
+
 #sucursales h4 {
  font-family: 'Roboto Mono', monospace;
   color: #4223f0;
@@ -136,10 +147,6 @@ form {
   border-radius: 5px;
 }
 
-.input-group {
-  display: flex;
-  margin-bottom: 10px;
-}
 
 label {
   width: 100px;
@@ -152,12 +159,6 @@ textarea {
   padding: 3px 5px;
 }
 
-.submit-group {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
 
 button {
   width: 100px;
